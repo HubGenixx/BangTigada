@@ -1,0 +1,22 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: homepage
+  annotations: # include optional annotations and/or labels.
+    version: v1.0.0
+    description: "Customized version of Bangtidaga"
+spec:
+  components:
+    - name: react application # an nginx component exposing port 80
+      type: webservice
+      properties:
+        image: ritesh1372/bangtigada:v1.0
+        ports:
+        - port: 3000
+          expose: true
+      traits:
+      - type: napptive-ingress # a napptive-ingress trait to get a public endpoint
+        properties:
+          name: homepage
+          port: 3000
+          path: /
