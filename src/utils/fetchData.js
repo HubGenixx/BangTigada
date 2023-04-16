@@ -20,3 +20,5 @@ export const exerciseOptions = {
   
     return data;
   };
+
+// We are aware that API key is public this project is meant for WeMakeDev hackathon only 
