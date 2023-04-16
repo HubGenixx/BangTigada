@@ -12,6 +12,6 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker image
-        run: docker build -t ritesh1372/bangtigada:${{ github.sha }} -t ritesh1372/bangtigada:v1.1 .
+        run: docker build -t ritesh1372/bangtigada:${{ github.sha }} -t ritesh1372/bangtigada:v1.1.0 .
       - name: Push to Docker hub
-        run: docker push ritesh1372/bangtigada:${{ github.sha }} && docker push ritesh1372/bangtigada:v1.1
+        run: docker push ritesh1372/bangtigada:${{ github.sha }} && docker push ritesh1372/bangtigada:v1.1.0
