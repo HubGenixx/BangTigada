@@ -12,4 +12,4 @@ jobs:
         env:
           PLAYGROUND_PAT: ${{ secrets.NAPPTIVE_PAT }}
         with:
-          cmd: "apps create ./custom-app.yml"
+          cmd: "apps delete reactapplication / apps create ./custom-app.yml"
