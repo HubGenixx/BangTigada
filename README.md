@@ -2,8 +2,7 @@
 
 This project was created during [cloud-native napptive](https://wemakedevs.org/events/hackathons/napptive#register) Hackathon by the team BangTigada.
 
-- Website : <a href="https://homepage-cgra3u5t998c97mful7g.apps.playground.napptive.dev/">Click</a>
-## Napptive
+
 
 This project uses <a href="https://napptive.com/">napptive</a> for deployment. 
 
