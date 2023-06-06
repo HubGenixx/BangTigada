@@ -14,10 +14,11 @@ spec:
     metadata:
       labels:
         app: solar-system
-  spec:
-    containers:
-      - image: siddharth67/solar-system:v3
-         name: solar-system
-         ports:
-           - containerPort: 80
+    spec:
+      containers:
+        - image: siddharth67/solar-system:v3
+          name: solar-system
+          ports:
+            - containerPort: 80
+
 
