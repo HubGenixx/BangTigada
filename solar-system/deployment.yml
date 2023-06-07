@@ -16,9 +16,9 @@ spec:
         app: solar-system
     spec:
       containers:
-        - image: siddharth67/solar-system:v3
-          name: solar-system
+        - image: learnk8s/knote-js:1.0.0
+          name: knotes-js
           ports:
-            - containerPort: 80
+            - containerPort: 3000
 
 
