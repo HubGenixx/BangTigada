@@ -16,7 +16,7 @@ spec:
         app: solar-system
     spec:
       containers:
-        - image: ritesh1372/bangtigada:v1.1.0
+        - image: siddharth67/solar-system:v3
           name: solar-system
           ports:
             - containerPort: 80
